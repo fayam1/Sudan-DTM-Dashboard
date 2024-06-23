@@ -1,12 +1,4 @@
- streamlit 
- geopandas 
- os
- pandas 
- numpy 
- matplotlib
- mapclassify 
- mplcursors
- altair 
- PIL 
- shapely
-adjustText 
+streamlit
+pandas
+altair
+geopandas
