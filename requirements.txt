@@ -1,9 +1,11 @@
 streamlit
 pandas
-altair
 geopandas
 matplotlib
 mapclassify
-mplcursors
-adjustText
 numpy
+adjustText
+altair
+Pillow
+shapely
+mplcursors
