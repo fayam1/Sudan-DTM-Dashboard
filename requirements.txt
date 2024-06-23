@@ -4,4 +4,4 @@ altair
 geopandas
 matplotlib
 mapclassify
-
+mplcursors
