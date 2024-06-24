@@ -132,6 +132,7 @@ def create_choropleth_map(merged_gdf, column, color_theme, year, month, figsize=
 
     # Adjust text positions to avoid overlaps
     adjust_text(texts, arrowprops=dict(arrowstyle="-", color='white', lw=0.5), ax=ax)
+    error = np.inf
 
     return fig
 
