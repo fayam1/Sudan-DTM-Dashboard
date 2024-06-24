@@ -134,7 +134,8 @@ def create_choropleth_map(merged_gdf, column, color_theme, year, month, figsize=
     adjust_text(texts, arrowprops=dict(arrowstyle="-", color='white', lw=0.5), ax=ax)
    
     return fig
-
+# Apply monkey patch
+adjustText.np.Inf = np.inf
 figsize=(15,10)    
 fig=create_choropleth_map(merged_gdf, 'IDPs_by_State_Of_Origin', 'YlOrRd',selected_year,selected_month,figsize = figsize)
 
