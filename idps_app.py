@@ -15,13 +15,7 @@ import matplotlib.patheffects as path_effects
 from shapely.geometry import Point
 from adjustText import adjust_text
 ##############################
-# Check numpy version
-if np.__version__ != '1.26.4':
-    sys.exit("Incompatible numpy version, expected 1.26.4")
-
-# Check adjustText version
-if adjustText.__version__ != '1.1.1':
-    sys.exit("Incompatible adjustText version, expected 1.1.1")
+  
 # Load data
 data=pd.read_csv('https://raw.githubusercontent.com/fayam1/Sudat-DTM-Analysis/main/Data/Sudan_IDPs_admin1_final.csv')
 # Load the Sudan admin1 shapefile
